@@ -1,6 +1,7 @@
 {
   "name": "wildcard-subdomains",
   "description": "Handle dynamic/wildcard subdomains in Express.js",
+
   "version": "1.1.0",
   "homepage": "https://github.com/patmood/wildcard-subdomains",
   "author": {
@@ -9,6 +10,8 @@
   },
   "scripts": {
     "test": "tap ./test/*",
+    "start": "node ./index.js",
+
     "example": "node ./examples/basic.js",
     "dev": "node ./test/* | tap-diff"
   },
