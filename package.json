@@ -1,0 +1,35 @@
+{
+  "name": "wildcard-subdomains",
+  "description": "Handle dynamic/wildcard subdomains in Express.js",
+  "version": "1.1.0",
+  "homepage": "https://github.com/patmood/wildcard-subdomains",
+  "author": {
+    "name": "Patrick Moody",
+    "url": "http://www.patmoody.com"
+  },
+  "scripts": {
+    "test": "tap ./test/*",
+    "example": "node ./examples/basic.js",
+    "dev": "node ./test/* | tap-diff"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/patmood/wildcard-subdomains"
+  },
+  "bugs": "https://github.com/patmood/wildcard-subdomains/issues",
+  "keyword": [
+    "wildcard subdomains",
+    "express subdomains",
+    "dynamic subdomains",
+    "subdomains"
+  ],
+  "devDependencies": {
+    "express": "^4.13.4",
+    "supertest": "^1.2.0",
+    "tap": "^5.7.2",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.5.1"
+  },
+  "license": "MIT"
+}
